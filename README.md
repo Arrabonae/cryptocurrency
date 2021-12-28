@@ -28,6 +28,7 @@ This project is based on the code from the following repository: https://github.
 
 ### Example result of a chain after few blocks are mine 
 
+```json
 {
     "blockchain": [
         {
@@ -162,3 +163,4 @@ This project is based on the code from the following repository: https://github.
         }
     ]
 }
+```
