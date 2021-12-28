@@ -9,9 +9,10 @@ Creates the genesis block and/or returns the chain, including each block and the
 ## /mine_block 
 Calling this, the miner will mine the current block and includes the currently available transactions from the memory. 
 ### The following mining parameters are embedded into the code: 
-Markup : * The block will consist the of the following information:
-            * index, transaction, previous hash, timestamp, nonce, difficulty target.
-         * The difficulty target is set to be static, 4 zeros at the begining of the hash of the block.
+* The block will consist the of the following information:
+    * index, transaction, previous hash, timestamp, nonce, difficulty target.
+* The difficulty target is set to be static, 4 zeros at the begining of the hash of the block.
+
 ## /add_transaction 
 Adds a transaction to the memory, which will be mined whem the '/mine_block' called
 
