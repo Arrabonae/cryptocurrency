@@ -1,14 +1,17 @@
-# Cryptocurrency
+# Blockchain based coin with Python
 The follow code has 4 miners which can be run from the same computer using different ports and they can interact with other.
 
 The demo code has the following functionalities:
 
 ## /get_chain
-Creates the genesis block and/or returns the chain, including each block and the lenght of the chain.
+Creates the genesis block and/or returns the chain, including each block and the length of the chain.
 
 ## /mine_block 
 Calling this, the miner will mine the current block and includes the currently available transactions from the memory. 
-
+### The following mining parameters are embedded into the code: 
+Markup : * The block will consist the of the following information:
+            * index, transaction, previous hash, timestamp, nonce, difficulty target.
+         * The difficulty target is set to be static, 4 zeros at the begining of the hash of the block.
 ## /add_transaction 
 Adds a transaction to the memory, which will be mined whem the '/mine_block' called
 
