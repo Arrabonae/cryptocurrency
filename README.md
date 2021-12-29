@@ -1,5 +1,5 @@
 # Blockchain based coin with Python
-The follow code has 4 miners which can be run from the same computer using different ports and they can interact with other.
+The follow code has 3 miners which can be run from the same computer thru Flask using different ports and they can interact with other.
 
 The demo code has the following functionalities:
 
